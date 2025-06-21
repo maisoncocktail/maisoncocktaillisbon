@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maison Cocktail Lisboa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cinzel', serif;
+      background-color: #fdf8f0;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px 20px;
+      background-color: #fdf8f0;
+    }
+    .lang-select button {
+      margin-left: 10px;
+      padding: 5px 10px;
+      border: 1px solid #ccc;
+      background-color: white;
+      cursor: pointer;
+      font-family: 'Cinzel', serif;
+    }
+    .hero {
+      text-align: center;
+      padding: 20px;
+      background-color: #fdf8f0;
+    }
+    .hero img {
+      max-width: 300px;
+      width: 90%;
+      height: auto;
+      mix-blend-mode: multiply;
+      border-radius: 50%;
+      background-color: #fdf8f0;
+    }
+    .hero p {
+      font-size: 18px;
+      font-style: italic;
+    }
+    .history {
+      padding: 40px 20px;
+    }
+    .history h2,
+    .contact-block h2,
+    .follow-us h2 {
+      text-align: center;
+      color: goldenrod;
+      font-size: 28px;
+    }
+    .services h2 {
+      text-align: center;
+      width: 100%;
+      color: goldenrod;
+      font-size: 28px;
+      margin-top: 60px;
+    }
+    .history-item {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: flex-start;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .history-item img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 10px;
+    }
+    .history-item div {
+      max-width: 600px;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px;
+    }
+    .service-item {
+      width: 300px;
+      text-align: center;
+    }
+    .service-item img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 10px;
+    }
+    .contact-block, .follow-us {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .follow-us a {
+      display: inline-block;
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      background-color: #fdf8f0;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="lang-select">
+      <a href="index.html"><button>EN</button></a>
+      <a href="index-fr.html"><button>FR</button></a>
+      <a href="index-pt.html"><button>PT</button></a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img src="LOGO MC.jpg" alt="Logo Maison Cocktail">
+    <p>Expériences sur mesure – Ateliers – Consulting</p>
+  </section>
+
+  <section class="history">
+    <h2>Notre Histoire</h2>
+    <div class="history-item">
+      <img src="AC1FE295-7E64-46FD-8F97-C3589D36D41C_1_105_c.jpeg" alt="Notre histoire">
+      <div>
+        <p><strong>Maison Cocktail Lisboa est née d'une passion partagée pour l'art de la mixologie et du désir de créer des expériences inoubliables.</strong></p>
+        <p>Fondée par deux amis barmen liés par une connexion naturelle derrière le comptoir, la marque combine la précision française à l'énergie brésilienne — raffinée, attentive et centrée sur l'humain.</p>
+        <p>Forts d'une expérience dans des lieux iconiques tels que Le Toiny (St. Barth), GIGI Paris ou encore le Farol Hotel (Cascais), nous avons souhaité partager notre vision du cocktail au-delà des murs d’un bar classique.</p>
+        <p><strong>Maison Cocktail propose un service complet et personnalisé :</strong><br>
+        — Ateliers cocktails pour particuliers et entreprises<br>
+        — Consulting pour bars et hôtellerie<br>
+        — Événements sur mesure : mariages, fêtes, team building</p>
+        <p>Que ce soit pour un petit groupe ou une grande célébration, notre objectif reste le même : offrir un service raffiné, créer des connexions et transformer chaque moment derrière le bar en une expérience unique.</p>
+      </div>
+    </div>
+  </section>
+
+  <h2>Nos Services</h2>
+  <section class="services">
+    <div class="service-item">
+      <img src="4035C406-5FF7-48E1-9AEB-9A509E33FDD9_1_201_a.jpeg" alt="Ateliers Cocktails">
+      <h3>Ateliers Cocktails</h3>
+      <p>Apprenez à créer vos propres cocktails dans un cadre détendu, guidé par des professionnels passionnés.</p>
+    </div>
+    <div class="service-item">
+      <img src="DSC06399.jpeg" alt="Consulting Bar">
+      <h3>Consulting Bar</h3>
+      <p>Création de carte, formation d’équipe et optimisation du service pour votre établissement.</p>
+    </div>
+    <div class="service-item">
+      <img src="EE374327-73C7-44DB-BFE7-4667798B2E2C_1_105_c.jpeg" alt="Team Building & Mariages">
+      <h3>Team Building & Mariages</h3>
+      <p>Offrez une expérience cocktail mémorable à vos événements privés ou professionnels.</p>
+    </div>
+  </section>
+
+  <section class="contact-block">
+    <h2>Contact</h2>
+    <p>Email : <a href="mailto:maisoncocktaillisbon@gmail.com">maisoncocktaillisbon@gmail.com</a></p>
+    <p>WhatsApp : (+351) 911 814 357</p>
+  </section>
+
+  <section class="follow-us">
+    <h2>Suivez-nous</h2>
+    <a href="https://www.instagram.com/maisoncocktaillisbon" target="_blank">Instagram</a>
+    <a href="https://www.tiktok.com/@maison.cocktail2" target="_blank">TikTok</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Maison Cocktail Lisboa | Tous droits réservés</p>
+  </footer>
+</body>
+</html>
